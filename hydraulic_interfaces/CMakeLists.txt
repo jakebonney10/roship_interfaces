@@ -7,9 +7,9 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 set(MSG_FILES
-  "msg/ValveCmd.msg"
-  "msg/ValveCmdStamped.msg"
-  "msg/ValvePackCmd.msg")
+  "msg/Valve.msg"
+  "msg/ValveStamped.msg"
+  "msg/ValvePack.msg")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${MSG_FILES}
