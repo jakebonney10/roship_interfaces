@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Krasnosky"
+  given-names: "Kristopher"
+  orcid: "https://orcid.org/0000-0002-2215-7792"
+title: "roship_interfaces"
+version: 1.0.0
+date-released: 2024-02-6
+url: "https://github.com/SeawardScience/roship_interfaces"
