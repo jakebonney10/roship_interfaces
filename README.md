@@ -74,16 +74,12 @@ This package is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) fo
 
 **1.0.0** - Initial stable release
 
-## Citation
+## Credits
 
-If you use RoShip Interfaces in your research, please cite:
+Developed by [Seaward Science](https://seaward.science/).
 
-```bibtex
-@software{roship_interfaces,
-  title = {RoShip Interfaces: ROS2 Messages for Marine Robotic Systems},
-  author = {Krasnosky, Kristopher},
-  year = {2025},
-  url = {https://github.com/k2oceanic/roship_interfaces},
-  version = {1.0.0}
-}
-```
+### Authors
+- Dr. Kristopher Krasnosky (lead software engineer)
+- Jake Bonney
+
+### Citation
