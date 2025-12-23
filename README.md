@@ -6,8 +6,8 @@ ROS2 interface definitions for marine robotic systems. This package provides sta
 
 RoShip (Robotic Ship) is a collection of standards and supporting software packages for operating robotic systems in marine environments. This interface package contains message definitions organized into domain-specific sub-packages:
 
-- **hydraulic_interfaces** - Messages for hydraulic valve control systems
-- **propulsion_interfaces** - Messages for thruster and propulsion systems
+- **[hydraulic_interfaces](hydraulic_interfaces/README.md)** - Messages for hydraulic valve control systems
+- **[propulsion_interfaces](propulsion_interfaces/README.md)** - Messages for thruster and propulsion systems
 
 ## Design Philosophy
 
