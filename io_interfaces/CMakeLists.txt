@@ -15,8 +15,12 @@ set(MSG_FILES
     "msg/RawDigitalArray.msg"
     "msg/RawDigitalStamped.msg")
 
+set(SRV_FILES
+    "srv/TripReset.srv")
+
 rosidl_generate_interfaces(${PROJECT_NAME}
     ${MSG_FILES}
+    ${SRV_FILES}
     DEPENDENCIES
     std_msgs)
 
