@@ -86,6 +86,26 @@ byte[]          data    # Raw binary payload
 
 ---
 
+## Service Types
+
+### ChannelTrigger.srv
+Service for triggering a single channel by ID. Returns a success flag and optional message.
+
+```
+# Request
+int32   channel_id  # Channel identifier to trigger
+
+---
+
+# Response
+bool    success     # True if the channel was triggered successfully
+string  message     # Human-readable result or error description
+```
+
+**Usage:** Send a one-shot trigger command to a specific channel. Suitable for relay pulse operations or any channel-based action that requires acknowledgement.
+
+---
+
 ## Design Philosophy
 
 - **Hardware Agnostic**: Normalized values and boolean states work across different device types and manufacturers

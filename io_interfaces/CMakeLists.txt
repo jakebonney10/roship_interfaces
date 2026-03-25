@@ -16,7 +16,7 @@ set(MSG_FILES
     "msg/RawDigitalStamped.msg")
 
 set(SRV_FILES
-    "srv/TripReset.srv")
+    "srv/ChannelTrigger.srv")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
     ${MSG_FILES}
