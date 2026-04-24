@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>propulsion_interfaces</name>
+  <name>io_interfaces</name>
   <version>1.0.0</version>
-  <description>RoShip propulsion interface definitions</description>
+  <description>RoShip io interface definitions</description>
   <maintainer email="support@seaward.science">Kristopher Krasnosky</maintainer>
   <license>Apache 2.0</license>
 
